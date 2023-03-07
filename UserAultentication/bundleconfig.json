@@ -1,0 +1,45 @@
+[
+  {
+    "outputFileName": "wwwroot/app.min.css",
+    "inputFiles": [
+      "wwwroot/css/app.css",
+      "wwwroot/css/form.css",
+      "wwwroot/css/flags.css",
+      "wwwroot/css/layout.css",
+      "wwwroot/css/skin.css",
+      "wwwroot/css/effect.css",
+      "wwwroot/style.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/app.min.js",
+    "inputFiles": [
+      "wwwroot/js/dev/function.js",
+      "wwwroot/js/dev/window.js",
+      "wwwroot/js/dev/init.js", // Call NWidown
+      "wwwroot/js/dev/modal.js", // Call NWidown
+      "wwwroot/js/dev/element.js",
+      "wwwroot/js/dev/editor.js",
+      "wwwroot/js/dev/notification.js",
+      "wwwroot/js/dev/chart.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/seed.min.js",
+    "inputFiles": [
+      "wwwroot/js/library/seed.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/service-worker.min.js",
+    "inputFiles": [
+      "wwwroot/js/library/service-worker.js"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/row.col.min.js",
+    "inputFiles": [
+      "wwwroot/js/library/row.col.js"
+    ]
+  }
+]
